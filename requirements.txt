@@ -1,0 +1,4 @@
+PyPDF2==1.26.0
+python-docx==0.8.11
+nltk==3.6.2
+streamlit==0.88.0
