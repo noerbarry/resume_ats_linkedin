@@ -91,7 +91,7 @@ def validate_resume_en(file_path):
         st.error("An error occurred while processing the resume: {}".format(str(e)))
 
 # Streamlit application view
-st.title("Validasi Resume LinkedIn Sesuai Standard Sistem ATS")
+st.title("Linkedin Resume Validation using ATS System method")
 
 # File upload form for resume
 uploaded_file = st.file_uploader("Upload LinkedIn resume file", type=["pdf", "docx", "doc", "pptx", "ppt"])
