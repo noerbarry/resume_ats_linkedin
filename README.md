@@ -32,6 +32,17 @@ This project is authored by Noer Barrihadianto. You can find more about the auth
 - LinkedIn: [Noer Barrihadianto](https://www.linkedin.com/in/noerbarry/)
 - GitHub: [noerbarri](https://github.com/noerbarry)
 
+## Donation
+If you find this project helpful and would like to support its development, you can contribute by buying me a coffee. Your support and contribution will be greatly appreciated.
+https://www.buymeacoffee.com/noerbarry
+
+By donating, you will help me continue working on this project, improving its features, and maintaining its functionality. Your contribution will directly contribute to the sustainability and growth of this project.
+
+Thank you for your support!
+
+Please note that donations are voluntary and non-refundable.
+
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
