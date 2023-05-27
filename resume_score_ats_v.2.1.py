@@ -1,6 +1,8 @@
 import re
 from PyPDF2 import PdfReader
 from docx import Document
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 import streamlit as st
 import os
