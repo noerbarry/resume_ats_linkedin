@@ -34,7 +34,8 @@ This project is authored by Noer Barrihadianto. You can find more about the auth
 
 ## Donation
 If you find this project helpful and would like to support its development, you can contribute by buying me a coffee. Your support and contribution will be greatly appreciated.
-https://www.buymeacoffee.com/noerbarry
+<br>
+<a href="https://www.buymeacoffee.com/noerbarry" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 By donating, you will help me continue working on this project, improving its features, and maintaining its functionality. Your contribution will directly contribute to the sustainability and growth of this project.
 
