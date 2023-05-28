@@ -92,6 +92,7 @@ def validate_resume_en(file_path):
 
 # Streamlit application view
 st.title("Linkedin Resume Validation using ATS System method")
+st.beta_set_page_config(credits=False)
 
 # File upload form for resume
 uploaded_file = st.file_uploader("Upload LinkedIn resume file", type=["pdf", "docx", "doc", "pptx", "ppt"])
