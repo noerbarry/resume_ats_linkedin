@@ -97,13 +97,13 @@ st.write('Noer Barrihadianto')
 st.markdown(
     """
     <style>
-    MainMenu {visibility: hidden;}
+    #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     </style>
     """,
     unsafe_allow_html=True
  )
-
+st.sidebar.title('Menu')
 
 # File upload form for resume
 uploaded_file = st.file_uploader("Upload LinkedIn resume file", type=["pdf", "docx", "doc", "pptx", "ppt"])
