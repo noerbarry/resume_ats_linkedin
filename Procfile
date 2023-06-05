@@ -1,2 +1,2 @@
-web: sh setup.sh && streamlit run resume_validation.py
+web: sh setup.sh && streamlit run resume_score_ats_v.2.1.py
 
