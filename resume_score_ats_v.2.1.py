@@ -101,9 +101,9 @@ st.markdown(
     footer {visibility: hidden;}
     </style>
     """,
-    unsafe_allow_html=True
 )
-# File upload form for resume
+
+st.markdown(hide_streamlit_style, unsafe_allow_html# File upload form for resume
 uploaded_file = st.file_uploader("Upload LinkedIn resume file", type=["pdf", "docx", "doc", "pptx", "ppt"])
 
 # Validation button
