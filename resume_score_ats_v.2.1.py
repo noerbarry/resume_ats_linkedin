@@ -95,12 +95,12 @@ st.title("Linkedin Resume Validation using ATS System method")
 st.write('Noer Barrihadianto')
 
 st.markdown(
-    hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
+    """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+    """,
 )
 
 st.markdown(hide_streamlit_style, unsafe_allow_html# File upload form for resume
