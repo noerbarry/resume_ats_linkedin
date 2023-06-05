@@ -1,8 +1,6 @@
 import re
 from PyPDF2 import PdfReader
 from docx import Document
-import nltk
-nltk.download('stopwords')
 from nltk.corpus import stopwords
 import streamlit as st
 import os
@@ -91,19 +89,9 @@ def validate_resume_en(file_path):
         st.error("An error occurred while processing the resume: {}".format(str(e)))
 
 # Streamlit application view
-st.title("Linkedin Resume Validation using ATS System method")
-st.write('Noer Barrihadianto')
+st.title("LinkedIn Resume Validation")
 
-st.markdown(
-    """
-    <style>
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    </style>
-    """,
-)
-
-st.markdown(hide_streamlit_style, unsafe_allow_html# File upload form for resume
+# File upload form for resume
 uploaded_file = st.file_uploader("Upload LinkedIn resume file", type=["pdf", "docx", "doc", "pptx", "ppt"])
 
 # Validation button
