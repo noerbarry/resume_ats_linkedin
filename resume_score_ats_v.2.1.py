@@ -95,12 +95,7 @@ st.title("Linkedin Resume Validation using ATS System method")
 st.write('Noer Barrihadianto')
 
 st.markdown(
-    """
-    <style>
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    </style>
-    """,
+    
     unsafe_allow_html=True
     hide_streamlit_style = """
             <style>
