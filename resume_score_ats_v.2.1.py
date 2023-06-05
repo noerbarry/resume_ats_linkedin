@@ -94,15 +94,15 @@ def validate_resume_en(file_path):
 st.title("Linkedin Resume Validation using ATS System method")
 st.write('Noer Barrihadianto')
 
- st.markdown(
+st.markdown(
     """
     <style>
-    #MainMenu {visibility: hidden;}
+    MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     </style>
     """,
     unsafe_allow_html=True
-    )
+ )
 
 
 # File upload form for resume
