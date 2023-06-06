@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 import streamlit as st
 import os
 
-st.header("pabar") 
+st.header("") 
 hide_st_style = """
         <style>
         #MainMenu {visibility: hidden;}
