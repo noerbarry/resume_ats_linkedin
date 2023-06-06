@@ -7,6 +7,14 @@ from nltk.corpus import stopwords
 import streamlit as st
 import os
 
+st.header("Ahoy!") hide_st_style
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>
+st.markdown (hide_st_style, unsafe_allow_html=True)
+
+
 # Function to read text from a PDF file
 def read_pdf(file_path):
     with open(file_path, 'rb') as file:
@@ -91,13 +99,6 @@ def validate_resume_en(file_path):
         st.error("An error occurred while processing the resume: {}".format(str(e)))
 
 # Streamlit application view
-st.header("Ahoy!") hide_st_style
-<style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-</style>
-st.markdown (hide_st_style, unsafe_allow_html=True)
-
 st.title("Linkedin Resume Validation using ATS System method")
 st.write('Noer Barrihadianto')
 
