@@ -7,11 +7,13 @@ from nltk.corpus import stopwords
 import streamlit as st
 import os
 
-st.header("Ahoy!") hide_st_style
-<style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-</style>
+st.header("Ahoy!") 
+hide_st_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        </style>  
+        """
 st.markdown (hide_st_style, unsafe_allow_html=True)
 
 
