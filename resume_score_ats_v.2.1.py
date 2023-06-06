@@ -7,15 +7,6 @@ from nltk.corpus import stopwords
 import streamlit as st
 import os
 
-st.header("") 
-hide_st_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        footer {visibility: hidden;}
-        </style>  
-        """
-st.markdown (hide_st_style, unsafe_allow_html=True)
-
 
 # Function to read text from a PDF file
 def read_pdf(file_path):
@@ -103,6 +94,13 @@ def validate_resume_en(file_path):
 # Streamlit application view
 st.title("Linkedin Resume Validation using ATS System method")
 st.write('Noer Barrihadianto')
+hide_st_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        </style>  
+        """
+st.markdown (hide_st_style, unsafe_allow_html=True)
 
 # File upload form for resume
 uploaded_file = st.file_uploader("Upload LinkedIn resume file", type=["pdf", "docx", "doc", "pptx", "ppt"])
